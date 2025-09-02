@@ -5,7 +5,7 @@ My first coding repository
 import google.generativeai as genai
 import ipywidgets as widgets
 from IPython.display import display,Markdown
-API_KEY = "AIzaSyD0c4Wh6M24izXAFT_Le85JTfIX_ImOS_Q"
+API_KEY = "Your_own_API_KEY"
 genai.configure(api_key = API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 topic_input = widgets.Text(
